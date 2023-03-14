@@ -1,22 +1,63 @@
-
-.titulo1{
-    font-size: 32px;
-    margin-left: 5%;
-    margin-right: 5%;
-    color: blueviolet;
+body{
+    background-color: rgb(255, 255, 255);
 }
+table, th, td {
+    border: 1px solid;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+  }
+  .horarios_t, .time_h{
+    width: 20%;
+  }
+  .time_h{
+  text-align: center;
+  }
+  .img_s{
+    border: 1px solid;
+    border-radius: 5px;
+    height: 500px;
+    width: 80%;
+    margin-left: 9%;
 
-.titulo1:hover{
-    color: orange;
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #a31d1d;
-    color: #333;
- }
 
- h1{
-    color: #333;
-    font-size: 34px;
- }
- 
+  }
+
+  .querer {
+    transition: transform 1s;
+    font-size: 43px;
+  }
+  
+  .querer:hover {
+    transform: rotate(360deg);
+    animation: cores 2s infinite;
+  }
+  
+  @keyframes cores {
+    0% { color: red; }
+    5% { color: orange; }
+    10% { color: yellow; }
+    15% { color: green; }
+    20% { color: blue; }
+    25% { color: indigo; }
+    30% { color: violet; }
+    35% { color: black; }
+    40% { color: gray; }
+    45% { color: brown; }
+    50% { color: purple; }
+    55% { color: pink; }
+    60% { color: red; }
+    65% { color: orange; }
+    70% { color: yellow; }
+    75% { color: green; }
+    80% { color: blue; }
+    85% { color: indigo; }
+    90% { color: violet; }
+    95% { color: black; }
+    100% { color: gray; }
+  }
+  

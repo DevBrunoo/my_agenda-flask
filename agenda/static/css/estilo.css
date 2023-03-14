@@ -1,0 +1,22 @@
+
+.titulo1{
+    font-size: 32px;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: blueviolet;
+}
+
+.titulo1:hover{
+    color: orange;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a31d1d;
+    color: #333;
+ }
+
+ h1{
+    color: #333;
+    font-size: 34px;
+ }
+ 
